@@ -1,0 +1,603 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "famp",
+    "dateExported": "2024-02-13T17:49:08.598Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "ff0ab427-4351-4221-a30f-67423c42242c",
+            "name": "secao02",
+            "containerId": "",
+            "created": "2024-02-02T11:48:50.236Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "00d90323-0984-4b62-9c32-2dd97afd3015",
+            "name": "secao03",
+            "containerId": "",
+            "created": "2024-02-03T19:43:35.694Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "a2c2a404-a5e4-4f77-9b9b-19213b091036",
+            "name": "secao04",
+            "containerId": "",
+            "created": "2024-02-10T13:16:44.974Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "34531821-b73f-4635-9563-3ff04893ac11",
+            "name": "secao05",
+            "containerId": "",
+            "created": "2024-02-11T12:53:38.441Z",
+            "sortNum": 40000
+        },
+        {
+            "_id": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "secao06",
+            "containerId": "",
+            "created": "2024-02-13T13:22:56.632Z",
+            "sortNum": 50000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "fa28d33e-bee4-4b4b-9520-b4b411de201d",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "ff0ab427-4351-4221-a30f-67423c42242c",
+            "name": "GET raiz",
+            "url": "http://127.0.0.1:8000/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-02T11:49:18.988Z",
+            "modified": "2024-02-02T11:49:57.541Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "de90c164-eea5-4988-9e06-9beea31f8af5",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "00d90323-0984-4b62-9c32-2dd97afd3015",
+            "name": "GET cursos",
+            "url": "http://127.0.0.1:8000/cursos",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-03T19:43:44.062Z",
+            "modified": "2024-02-03T19:43:57.576Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7ac0cbcf-9a11-4e1d-a8b1-3eb1a329db09",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "00d90323-0984-4b62-9c32-2dd97afd3015",
+            "name": "GET Cursos Rotas",
+            "url": "http://127.0.0.1:8000/api/v1/cursos",
+            "method": "GET",
+            "sortNum": 12500,
+            "created": "2024-02-08T11:19:02.553Z",
+            "modified": "2024-02-08T11:19:40.423Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "39452335-3dd0-41cb-976c-40ef046f15a7",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "00d90323-0984-4b62-9c32-2dd97afd3015",
+            "name": "GET Usuarios Rotas",
+            "url": "http://127.0.0.1:8000/api/v1/usuarios",
+            "method": "GET",
+            "sortNum": 13750,
+            "created": "2024-02-08T11:19:51.245Z",
+            "modified": "2024-02-08T11:19:57.144Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "af25738d-237c-45d7-ba34-b3e63297d96e",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "00d90323-0984-4b62-9c32-2dd97afd3015",
+            "name": "GET calculadora",
+            "url": "http://127.0.0.1:8000/calculadora?a=6&b=12&c=3",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-02-07T11:34:31.551Z",
+            "modified": "2024-02-07T11:49:45.967Z",
+            "headers": [
+                {
+                    "name": "X-GEEK",
+                    "value": "10"
+                }
+            ],
+            "params": [
+                {
+                    "name": "a",
+                    "value": "6",
+                    "isPath": false
+                },
+                {
+                    "name": "b",
+                    "value": "12",
+                    "isPath": false
+                },
+                {
+                    "name": "c",
+                    "value": "3",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "d6fb34aa-940e-49f2-92f8-91840d9bd7ab",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "00d90323-0984-4b62-9c32-2dd97afd3015",
+            "name": "GET curso",
+            "url": "http://127.0.0.1:8000/cursos/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-03T19:50:05.605Z",
+            "modified": "2024-02-07T12:02:01.613Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ec68e81f-334f-4a96-9985-fb8d476a516c",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "00d90323-0984-4b62-9c32-2dd97afd3015",
+            "name": "POST curso",
+            "url": "http://127.0.0.1:8000/cursos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-06T11:38:15.789Z",
+            "modified": "2024-02-06T11:47:55.768Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"Programação em C\",\n  \"aulas\": 54,\n  \"horas\": 60\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "39e622b5-afb3-4f27-a13b-c9f93d8308d0",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "00d90323-0984-4b62-9c32-2dd97afd3015",
+            "name": "POST curso 2",
+            "url": "http://127.0.0.1:8000/cursos",
+            "method": "POST",
+            "sortNum": 35000,
+            "created": "2024-02-08T11:22:53.718Z",
+            "modified": "2024-02-08T11:41:13.045Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"Programação Estruturada 0\",\n  \"aulas\": 122,\n  \"horas\": 30\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7ec0b513-9073-43cf-82db-a904a131e600",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "00d90323-0984-4b62-9c32-2dd97afd3015",
+            "name": "PUT curso",
+            "url": "http://127.0.0.1:8000/cursos/3",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-06T11:59:31.197Z",
+            "modified": "2024-02-06T12:02:26.638Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"Programação em C#\",\n  \"aulas\": 54,\n  \"horas\": 60\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0b23c15c-4e58-4b4c-b13a-13c6e6b26bbe",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "00d90323-0984-4b62-9c32-2dd97afd3015",
+            "name": "DELETE curso",
+            "url": "http://127.0.0.1:8000/cursos/3",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-06T12:04:36.467Z",
+            "modified": "2024-02-06T12:04:56.758Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1e0c4216-3e44-4cf6-b6e3-b9699830df14",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "a2c2a404-a5e4-4f77-9b9b-19213b091036",
+            "name": "POST curso",
+            "url": "http://localhost:8000/api/v1/cursos",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-10T13:16:56.508Z",
+            "modified": "2024-02-10T14:26:31.699Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"Programação 3 para medium\",\n  \"aulas\": 90,\n  \"horas\": 310\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "eb128d6c-0e4c-4308-bf66-bf00e6e17bb9",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "34531821-b73f-4635-9563-3ff04893ac11",
+            "name": "POST curso",
+            "url": "http://localhost:8000/api/v1/cursos",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-11T12:53:38.447Z",
+            "modified": "2024-02-11T12:56:08.379Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"Programação 1 para new\",\n  \"aulas\": 90,\n  \"horas\": 310\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d97fe27b-2231-41e3-8d39-9cb4170103c7",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "a2c2a404-a5e4-4f77-9b9b-19213b091036",
+            "name": "GET cursos",
+            "url": "http://localhost:8000/api/v1/cursos",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-02-10T14:27:58.318Z",
+            "modified": "2024-02-10T14:32:04.165Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3c106ca9-ee24-40f1-952b-a902bc1db52d",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "34531821-b73f-4635-9563-3ff04893ac11",
+            "name": "GET cursos",
+            "url": "http://localhost:8000/api/v1/cursos",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-02-11T12:53:38.448Z",
+            "modified": "2024-02-11T12:53:38.447Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ea86e9b6-6479-4ddf-9aab-ac333f2f389f",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "a2c2a404-a5e4-4f77-9b9b-19213b091036",
+            "name": "GET curso",
+            "url": "http://localhost:8000/api/v1/cursos/2",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-02-10T14:35:07.404Z",
+            "modified": "2024-02-10T14:35:23.799Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a1867d13-456e-43d9-bcd1-0a9c045dcac3",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "34531821-b73f-4635-9563-3ff04893ac11",
+            "name": "GET curso",
+            "url": "http://localhost:8000/api/v1/cursos/2",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-02-11T12:53:38.450Z",
+            "modified": "2024-02-11T12:53:38.448Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9834045c-eca5-40a9-813e-7ae6e40bcafd",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "a2c2a404-a5e4-4f77-9b9b-19213b091036",
+            "name": "PUT curso",
+            "url": "http://localhost:8000/api/v1/cursos/2",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2024-02-10T14:35:37.501Z",
+            "modified": "2024-02-10T14:36:34.348Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"titulo\": \"Programação 2 para novos\",\r\n  \"aulas\": 80,\r\n  \"horas\": 200\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "35d4566f-46ba-4179-ad43-b54ff1e436ad",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "34531821-b73f-4635-9563-3ff04893ac11",
+            "name": "PUT curso",
+            "url": "http://localhost:8000/api/v1/cursos/2",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2024-02-11T12:53:38.451Z",
+            "modified": "2024-02-11T12:56:22.269Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"Programação 2 para novos\",\n  \"aulas\": 80,\n  \"horas\": 200\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a58d0705-c900-4d65-93f4-94109fb97fa7",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "a2c2a404-a5e4-4f77-9b9b-19213b091036",
+            "name": "DELETE curso",
+            "url": "http://localhost:8000/api/v1/cursos/3",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2024-02-10T14:37:02.567Z",
+            "modified": "2024-02-10T14:37:28.344Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cea55748-b779-4f8b-b32b-4b898d7bdee9",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "34531821-b73f-4635-9563-3ff04893ac11",
+            "name": "DELETE curso",
+            "url": "http://localhost:8000/api/v1/cursos/3",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2024-02-11T12:53:38.452Z",
+            "modified": "2024-02-11T12:53:38.448Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4b5d215e-2499-4c8f-b808-404e395a75b7",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "POST usuario",
+            "url": "http://localhost:8000/api/v1/usuarios/signup",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-02-13T13:23:04.864Z",
+            "modified": "2024-02-13T13:41:26.134Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\": \"Pedro\",\n  \"sobrenome\": \"Xavier\",\n  \"email\": \"pedroxavier@gmail.com\",\n  \"senha\": \"987456123\",\n  \"eh_admin\": true\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "797384a9-ba43-40ca-a139-b2f905ea39a1",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "POST artigo",
+            "url": "http://localhost:8000/api/v1/artigos",
+            "method": "POST",
+            "sortNum": 112500,
+            "created": "2024-02-13T14:29:44.257Z",
+            "modified": "2024-02-13T14:50:52.262Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"Artigo 2\",\n  \"descricao\": \"Somente um artigo\",\n  \"url_fonte\": \"http://www.artigos.com.br/2\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzA4NDM4NzYwLCJpYXQiOjE3MDc4MzM5NjAsInN1YiI6IjEifQ.IuAhkoyYl2PaGmwOPsheluc4jyk20AXk-xqpJoT5Ejo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "36b5d7be-ec73-48ff-ac58-5b87c0c4e931",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "POST login",
+            "url": "http://localhost:8000/api/v1/usuarios/login",
+            "method": "POST",
+            "sortNum": 115000,
+            "created": "2024-02-13T14:17:38.304Z",
+            "modified": "2024-02-13T15:03:02.657Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "pedroxavier@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "helias"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "f69a0f60-fa57-4318-ad21-166617be1d49",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "GET usuarios",
+            "url": "http://localhost:8000/api/v1/usuarios",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2024-02-13T13:48:21.119Z",
+            "modified": "2024-02-13T13:48:41.313Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "25cd3e95-2612-4450-967c-8f47dbbbc836",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "GET artigos",
+            "url": "http://localhost:8000/api/v1/artigos",
+            "method": "GET",
+            "sortNum": 122500,
+            "created": "2024-02-13T14:53:14.612Z",
+            "modified": "2024-02-13T14:53:30.369Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "bc18b71c-fe7c-469f-96ec-7de2fa2be3d1",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "GET logado",
+            "url": "http://localhost:8000/api/v1/usuarios/logado",
+            "method": "GET",
+            "sortNum": 125000,
+            "created": "2024-02-13T14:25:22.983Z",
+            "modified": "2024-02-13T14:27:41.310Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzA4NDM4NzYwLCJpYXQiOjE3MDc4MzM5NjAsInN1YiI6IjEifQ.IuAhkoyYl2PaGmwOPsheluc4jyk20AXk-xqpJoT5Ejo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "c2e013dd-ca72-49e3-b1f2-cf0d7fca7fba",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "GET usuario",
+            "url": "http://localhost:8000/api/v1/usuarios/3",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-02-13T13:49:57.687Z",
+            "modified": "2024-02-13T17:04:50.120Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "67f9dd59-3650-44bf-9222-8da592f7388e",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "GET artigo",
+            "url": "http://localhost:8000/api/v1/artigos/2",
+            "method": "GET",
+            "sortNum": 135000,
+            "created": "2024-02-13T14:53:40.157Z",
+            "modified": "2024-02-13T14:54:15.697Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4bfbc6f0-0461-4171-a449-bb48b3518186",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "DELETE artigo",
+            "url": "http://localhost:8000/api/v1/artigos/1",
+            "method": "DELETE",
+            "sortNum": 137500,
+            "created": "2024-02-13T14:59:09.854Z",
+            "modified": "2024-02-13T15:03:32.095Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzA4NDQxMzgyLCJpYXQiOjE3MDc4MzY1ODIsInN1YiI6IjMifQ.i0yL9vMhjkSQzskn1s_bgFltjJ5vmJ90rsQeXKN45QA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "81040d90-f69a-439d-896d-fc89e8b3219d",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "DELETE usuario",
+            "url": "http://localhost:8000/api/v1/usuario/2",
+            "method": "DELETE",
+            "sortNum": 138750,
+            "created": "2024-02-13T14:59:53.926Z",
+            "modified": "2024-02-13T15:00:05.258Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzA4NDM4NzYwLCJpYXQiOjE3MDc4MzM5NjAsInN1YiI6IjEifQ.IuAhkoyYl2PaGmwOPsheluc4jyk20AXk-xqpJoT5Ejo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "c6280ddf-52ae-4716-8444-a5efcb17e196",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "PUT usuario",
+            "url": "http://localhost:8000/api/v1/usuarios/3",
+            "method": "PUT",
+            "sortNum": 140000,
+            "created": "2024-02-13T13:51:50.663Z",
+            "modified": "2024-02-13T15:02:25.197Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "  {\r\n    \"nome\": \"Pedro\",\r\n    \"sobrenome\": \"Xavier\",\r\n    \"email\": \"pedroxavier@gmail.com\",\r\n    \"senha\": \"helias\",\r\n    \"eh_admin\": true\r\n  }\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "aaa27611-e1c9-439b-a6a5-df7bf86c27fc",
+            "colId": "b309443f-2931-4176-818b-5c1d3f4221f2",
+            "containerId": "9a595095-bf6d-4a09-bbd2-47126bfb497f",
+            "name": "PUT artigo",
+            "url": "http://localhost:8000/api/v1/artigos/3",
+            "method": "PUT",
+            "sortNum": 145000,
+            "created": "2024-02-13T14:56:37.324Z",
+            "modified": "2024-02-13T17:04:32.280Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"Artigo 2\",\n  \"descricao\": \"Somente um artigo 2\",\n  \"url_fonte\": \"http://www.artigos.com.br/2\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwIjoxNzA4NDQxMzgyLCJpYXQiOjE3MDc4MzY1ODIsInN1YiI6IjMifQ.i0yL9vMhjkSQzskn1s_bgFltjJ5vmJ90rsQeXKN45QA"
+            },
+            "tests": []
+        }
+    ]
+}
